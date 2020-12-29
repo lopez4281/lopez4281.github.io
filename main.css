@@ -56,59 +56,10 @@ header .main-nav{
   font-family: 'Open Sans', sans-serif;
 	padding-top: 2.5em;
   padding-bottom: .5em;
-  /*
-	border: 1px solid #a2a2a2;
-  background-color: #f4f4f4;
-	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-  border-radius: 5px;
-  */
+ 
 }
 
-/* 
-header .logo-area{
-  color: white;
-  display: inline-block;
-  width:20%;
-  margin-left: -4px;
-}
-header .logo-area a {
- text-decoration: none;
- font-size: 20px;
 
-}
-header .logo-area a img{
-  height: 45px;
-  margin-top: 30px;
-  margin-left: 35px
-}
-header .menu{
-  display: inline-block;
-  width: 80%;
-  margin-left: -4px;
-  text-align: right;
-  padding-right: 20px;
-}
-header .menu a{
-  color:black;
-}
-header .menu ul li{
-  display: inline-block;
-}
-
-header #nav-button{
-  border-width: 2px;
-    font-weight: 400;
-    font-size: 18px;
-    padding: 1.2rem;
-}
-header #nav-button a:hover {
-  color: grey;
-}
-*/
 .top-section #greeting{
   margin-top: 50px;
     padding: 20px;
@@ -118,7 +69,6 @@ header #nav-button a:hover {
 }
 .top-section #job-title{
   text-align: center;
-   margin-bottom: 20px;
   font-weight: bold;
   font-size: 25px;
 }
@@ -126,7 +76,7 @@ header #nav-button a:hover {
   text-align: center;
   font-size: large;
   padding: 5px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .top-section img{
   display: block;
@@ -144,16 +94,7 @@ header #nav-button a:hover {
   padding-top: 14px;
   
 }
-/*
-.container-1 div{
-  border-bottom: 1px solid grey;
-  padding: 10px;
-  margin: 0 auto;
-  webkit-box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
--moz-box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
-box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
-}
-*/
+
 .container-1{
   flex-direction: column;
   justify-content: space-evenly;
@@ -209,18 +150,7 @@ box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
   height: 200px;
   padding: 10px;
 }
-/*
-.main{
-  width: 800px;
-  height: 550px;
-  text-align: center;
-  padding: 50px;
-  margin: auto;
-  webkit-box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
--moz-box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
-box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
-}
-*/
+
 
 #about-me {
   line-height: 1.6;
@@ -239,17 +169,7 @@ box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
   color: whitesmoke;
   
 }
-/*
- #goals{
-   line-height: 1.6;
-  margin-left: 60px;
-  width: 250px;
-  height: 350px;
-  margin-right: 20px;
-  float:right;
-  border-bottom: 1px solid black;
- }
- */
+
  .box-1{
    background-color:grey;
    color: white;
@@ -300,17 +220,7 @@ box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
   padding-bottom: 5px;
   color: whitesmoke;
 }
-/*
- #css-icon{
-  margin-right: 50px;
-  margin-left: 50px;
- }
- 
- #css-list{
-   padding-left: 25px;
-   padding-right: 15px;
- }
- */
+
 
  .project-section-container{
    display: flex;
@@ -327,9 +237,6 @@ box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
   height: 100px;
   width: 100%;
   
-  /*
-  margin: auto;
-  */
   
  }
  .project-box h1{
@@ -427,20 +334,7 @@ box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
     width: 100%;
   }
 }
-/*
-  @media only screen and (max-width: 600px) {
-   .main{
-    height: 800px;
-    width: 400px;
-   }
-  }
 
-  @media only screen and (max-width: 600px) {
-    #about-me{
-      margin-bottom: 10px;
-    }
-   }
-   */
 @media (min-width: 768px) {
   .container-1 {
     display: flex;
@@ -448,17 +342,6 @@ box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.32);
     -moz-box-shadow: 0px 9px 5px 0px rgba(0, 0, 0, 0.32);
     box-shadow: 0px 9px 5px 0px rgba(0, 0, 0, 0.32);
   }
-  /*
-  .project-box-two {
-    background-color: pink;
-    padding: 27px; 
-    height: 460px;
-    width: 100%;
-}
-  .project-box-two img {
-    height: 350px;
-    width: 350px;
-}*/
 
 }
 
