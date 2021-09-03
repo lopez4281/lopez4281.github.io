@@ -7,96 +7,57 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/920aabcf92.js" crossorigin="anonymous"></script>
 </head>
 
-<body style="background-color: lightgray !important;">
-  <header class="header">
-    <!-- <h1 class="logo"><a>Erik Lopez</a> </h1-->
-    <h1 class="logo"><a><img src="images/mf-logo.svg"></a></h1>
+<body>
+  <div class="nav-bar">
+    <a id="logo"><img src="images/mf-logo.svg"></a>
       <ul class="main-nav">
         <li><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-      </ul>
-    <!-- Old header menu
-    <div class="logo-area">
-      <a href="index.html"><img src="images/mf-logo.svg"></a>
-    </div>
-    <div class="menu">
-      <ul>
-        <a href="#contact"> <li id="nav-button">
-            Contact
-        </li>
-        </a>
-        <a href="#mid"> <li id="nav-button">
-            About
-        </li>
-        </a>
       </ul>
     </div>
-  -->
-  
-  </header>
   <div class="top-section">
-    <h1 id="greeting">Hi, I'm Erik Lopez.</h1>
-   <h1 id="job-title">Email Developer</h1>>
-    <h2>  I like to code things from scratch, and enjoy bringing ideas to life in
-      the browser.</h2>
-    <!--<img
-      src="images/japanprofile.jpg">-->
+    <h1 id="greeting">Hi, I'm Erik Lopez.<i class="em em-wave" aria-role="presentation" aria-label="WAVING HAND SIGN"></i></h1>
+   <h2 id="job-title">Email Developer</h2>
+    <h3>  I like to code things from scratch, and enjoy bringing ideas to life in
+      the browser.</h3>
   </div>
   <div class="dev-art">
     <img src="images/hero.svg">
   </div>
-  <!-- <div class="main">-->
-    <div class="container-1">
-      <div class= "box-1">
-    <!--<div id="about-me">-->
-      <h2 id="about">About</h2>
+    <div class="about-me-container">
+      <div class="about-me-info">
+      <h2 id="about">About Me</h2>
       <p>I'm a Email Developer who enjoys solving
-        problems and creating professional Emails. I am self-motivated, punctional, reliable, and able to communicate effectively. Details are paid close attention
+        problems and creating clean and responsive Emails. I am self-motivated, punctional, reliable, and able to communicate effectively. Details are paid close attention
         to when translating design mockups into HTML email documents. I am passionate about gaining knowledge, experience and improving my skills.
-       I am a graduate from
-        <a href="http://www.goldenwestcollege.edu/"  target="_blank" >Golden West College</a> and have an <span style="font-style:italic;">Associates of Arts Degree in Liberal Arts: Emphasis in Computer Science and Technology</span>.
       </p>
-      <img src="images/code.png" />
+      <img src="images/code.png">
     </div>
-   <!--<div id="goals">-->
-     <div class="box-2">
+    </div>
+    <div class="skills-container">
       <h2>Skills</h2>
-      <ul id="web-list">
-        <li><i class="fab fa-html5 fa-2x"> HTML5</i></li>
-        <li><i class="fab fa-css3-alt fa-2x"> CSS3</i></li>
-        <li><i class="fab fa-js-square fa-2x"> JavaScript</i></li>
-        <li><i class="fab fa-git-alt fa-2x"> Git</i></li>
+      <ul>
+        <li><i class="fab fa-html5 fa-3x"></i><span>Html5</span></li>
+        <li><i class="fab fa-css3-alt fa-3x"></i><span>Css3</span></li>
+        <!--<li><i class="fab fa-js-square fa-3x"></i><span>Javascript</li>-->
+        <li><i class="fab fa-git-alt fa-3x"></i><span>Git</span></li>
+        <li><i class="fas fa-mobile fa-3x"></i><span>Responsive Design</span></li>
       </ul>
-      <!-- 
-      <ul id="web-lang">
-        <li>HTML5</li>
-        <li >CSS3</li>
-        <li>Javascript</li>
-        <li>Git</li>
-      </ul>
-    -->
-      <!-- 
-      <h2>Responsive Design</h2>
-        <p>
-          I aim to build websites that not only look good on Desktop but are
-          also Responsive and Mobile Friendly.
-        </p>
-        <img src="images/responsive.png" />
-      -->
     </div>
-  </div>
+    </div>
+  
   
   <div class="project-section-container">
-    <div class="project-box">
-      <h1 id="portfolio">My Recent Work</h1>
+      <div class="header">
+      <h1>My Recent Work</h1>
       <p>Here are a few projects I've worked on recently.
       </p>
-    </div>
+      </div>
       <div class="project-box-two">
       <a href="smartwatchemail.html"><img src="images/Smartwatch.png"></a>
       <h3>Smartwatch</h3>
