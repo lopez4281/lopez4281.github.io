@@ -259,7 +259,7 @@ a{
   height: 300px;
   width: 300px;
   padding: 5px;
-  border: 3px solid grey
+  border: 3px solid lightgray;
 }
 .project-box-two h3{
   padding: 5px;
@@ -300,6 +300,18 @@ a{
 /* ================================= 
   Media Queries
 ==================================== */
+@media screen and (min-width: 1201px){
+  .work-process-section-container .down-arrow{
+    display: none;
+    
+  }
+}
+@media screen and (max-width: 1200px){
+  .work-process-section-container .down-arrow{
+    display: none;
+    
+  }
+}
 @media screen and (max-width: 1025px){
   .about-me-container .about-me-info {
     width: 72%;
@@ -310,4 +322,108 @@ a{
       align-items: center;
       width: 80%;
 }
+}
+@media screen and (max-width: 768px){
+  .top-section #greeting{
+    font-size: 2rem;
+  }
+  .top-section #job-title {
+    font-size: 1.3rem;
+  }
+  .top-section h3{
+    font-size: .8rem;
+  }
+  .dev-art img{
+    height: auto;
+    width: 70%;
+    padding-top: 2rem;
+  }
+  .about-me-container{
+    height: 20rem;
+  }
+  .about-me-container .about-me-info h2 {
+    font-size: 2rem;
+  }
+  .about-me-container .about-me-info p {
+    font-size: .8rem;
+}
+  .skills-container{
+    height: 26rem;
+  }
+  .skills-container h2{
+    font-size: 2rem;
+  }
+  .work-process-section-header{
+    height: 6rem;
+    background-color: darkgray;
+  }
+  .work-process-section-header h2 {
+    font-size: 2rem;
+}
+.work-process-section{
+  height: 16rem;
+}
+.work-process-section-container{
+  width: 85%;
+  padding: 1rem;
+}
+.work-process-section-container .down-arrow{
+  display: none;
+}
+.project-section-container h1 {
+  font-size: 2rem;
+}
+.project-section-container .header p{
+  font-size: .8rem;
+}
+}
+@media screen and (max-width: 481px){
+  .dev-art img{
+    width: 100%;
+  }
+  .top-section #greeting{
+    font-size: 1.6rem;
+  }
+  .top-section #job-title {
+    font-size: 1rem;
+}
+.about-me-container .about-me-info h2{
+  font-size: 1.6rem;
+}
+.skills-container h2{
+  font-size: 1.6rem;
+}
+.work-process-section-header h2{
+  font-size: 1.6rem;
+}
+.skills-container{
+  height: 43rem;
+}
+.skills-container #first{
+  flex-direction: column;
+  height: 28rem;
+}
+.skills-container #second{
+  flex-direction: column;
+  height: 5rem;
+}
+.work-process-section{
+  height: 43rem;
+}
+.work-process-section-container{
+  flex-direction: column;
+  height: 40rem;
+}
+.work-process-section-container .right-arrow{
+  display: none;
+}
+.work-process-section-container .down-arrow{
+  display: block;
+}
+}
+@media screen and (max-width: 320px) {
+  .project-box-two img {
+    height: 200px;
+    width: 200px;
+  
 }
