@@ -245,8 +245,10 @@ a{
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
+   width: 100%;
    height: 40rem;
    text-align: center;
+   
 
  }
  .project-section-container .header{
@@ -260,7 +262,13 @@ a{
    font-size: 3rem;
    font-weight: 600;
  }
- 
+ .my-project-container{
+   display: flex;
+   justify-content: space-evenly;
+ }
+ .project-box-two{
+   order: 2;
+ }
 .project-box-two img{
   height: 300px;
   width: 300px;
@@ -273,6 +281,24 @@ a{
   color:black;
 }
 .project-box-two p{
+  padding: 5px;
+  color: black;
+}
+.deftones{
+  order:1;
+}
+.deftones img{
+  height: 300px;
+  width: 300px;
+  padding: 5px;
+  border: 3px solid lightgray;
+}
+.deftones h3{
+  padding: 5px;
+  font-weight: bold;
+  color:black;
+}
+.deftones p{
   padding: 5px;
   color: black;
 }
@@ -376,11 +402,19 @@ a{
 .work-process-section-container .down-arrow{
   display: none;
 }
+.project-section-container{
+  height: 70rem;
+}
+
 .project-section-container h1 {
   font-size: 2rem;
 }
 .project-section-container .header p{
   font-size: .8rem;
+}
+.my-project-container{
+  flex-direction: column;
+  height: 50rem;
 }
 }
 @media screen and (max-width: 481px){
@@ -426,11 +460,16 @@ a{
 .work-process-section-container .down-arrow{
   display: block;
 }
+
 }
 @media screen and (max-width: 320px) {
   .project-box-two img {
     height: 200px;
     width: 200px;
   
+}
+.deftones img{
+  height: 200px;
+  width: 200px;
 }
 }
