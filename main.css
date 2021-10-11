@@ -313,7 +313,6 @@ a{
 .financial-services img{
  height: 300px;
  width: 300px;
- object-fit: cover;
  padding: 5px;
  border: 3px solid lightgray;
 }
