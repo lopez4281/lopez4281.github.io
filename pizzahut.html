@@ -11,34 +11,55 @@
     <title>PizzaHut</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    
     <style>
-   
-     /* MIDSIZES */
-    @media only screen and (max-width: 960px){
-      .container{
-        width: 600px;
-      }
-    }
+        /* MIDSIZES */
+        @media only screen and (max-width: 960px) {
+            .container {
+                width: 600px !important;
+            }
+        }
+
         /* MOBILE */
-    @media only screen and (max-width: 600px){
-      .container{
-        width: 100%;
-      }
-      
-      
-    }
-  </style>
+        @media only screen and (max-width: 600px) {
+            .main-table-container{
+                width: 100% !important;
+            }
+            .container {
+                width: 100% !important;
+            }
+
+            .pizzahut-logo {
+                width: 100%;
+            }
+
+            .main-content-container {
+                width: 100% !important;
+            }
+            .inside-main-container{
+                width: 100% !important;
+            }
+            .inside-container-one{
+                width: 100% !important;
+            }
+            .inside-container-two{
+                width: 100% !important;
+            }
+
+
+        }
+    </style>
 </head>
 
 <body style="font-family: Arial, Helvetica, sans-serif;">
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
     <!--Start of Html Email-->
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
-            <td>
+            <td class="main-table-data">
                 <!--Start of container -->
                 <table class="container" width="640" cellspacing="0" cellpadding="0" border="0"
                     style="margin-left: auto; margin-right: auto;">
@@ -49,40 +70,52 @@
                                 cellpadding="0" border="0">
                                 <tr>
                                     <td>
-                                        <img src="https://i.postimg.cc/Sx8CX1WJ/pizzahutlogo.png" alt="pizza hut logo" style="width: 100%;">
+                                        <img src="https://i.postimg.cc/Sx8CX1WJ/pizzahutlogo.png" alt="pizza hut logo"
+                                            style="width: 100%;">
                                     </td>
                                 </tr>
-                            </table>
-
-                            <table class="main-content-container" align="center" width="640" cellspacing="0"
-                                cellpadding="0" border="0" style="background: black;">
                                 <tr>
-                                    <td width="568" align="center" style="width: 100%; color: #ffffff; font-size: 13px;">
+                                    <td width="568" align="center" style="width: 100%; color: #ffffff; font-size: 13px; text-align: center;">
                                         <span>Thanks for your order, Erik!</span>
                                         <br>
                                         <span>Waiting is the hardest part. Your order will be ready on</span>
                                         <br>
                                         <span>October 12, 3:05 PM</span>
                                     </td>
-                                </tr>
+                                    </tr> <!--table tags are messed up. check!-->
+                            </table>
+                            <!--start of main content container-->
+                            <table class="main-content-container" align="center" width="640" cellspacing="0"
+                                cellpadding="0" border="0" style="background: black;">
                                 <!--Start of main content-->
                                 <tr>
-                                    <td colspan="3" width="640" align="center" style="max-width: 568px;">
-                                        <table align="center" width="640" cellspacing="0" cellpadding="0" border="0">
+                                    <td class="inside-main-container" colspan="3" width="640" align="center" style="max-width: 568px;">
+                                        <table class="inside-container-one" align="center" width="640" cellspacing="0" cellpadding="0" border="0">
                                             <tr>
+                                                <!--test--> <td align="center">
+                                                    <table class="inside-container-two" align="center" width= "640" align="center" 
+                                                    cellspacing="0" cellpadding="0" border="0" style=" width: 100%; margin: 0;">
+                                                    <tr>
+                                                        
+                                                    
+                                                
+
+                                                
                                                 <td width="36" style="max-width: 36px; vertical-align: bottom;">
-                                                    <img src="https://i.postimg.cc/VNWtgSZw/pizzahutbackground.png" alt="image of pizza table cloth" width="36"
-                                                        style="display: block;">
+                                                    <img src="https://i.postimg.cc/VNWtgSZw/pizzahutbackground.png"
+                                                        width="36"
+                                                        style="line-height: 15px; display: block; width: 100%;">
                                                 </td>
 
                                                 <td width="568" align="center"
                                                     style="max-width: 520px; background-color: #ffffff;">
-                                                    <table align="center" width="568" cellspacing="0" cellpadding="0"
+                                                    <!--start of order section-->
+                                                    <table class="order-section" align="center" width="568" cellspacing="0" cellpadding="0"
                                                         border="0" style="width: 100%;">
                                                         <tr>
                                                             <td align="center" width="568">
-                                                                <img src="https://i.postimg.cc/B6ZKVqRK/yourorderlogo.jpg" alt="your order logo"
-                                                                    alt="Pizza Hut Your Order"
+                                                                <img src="https://i.postimg.cc/B6ZKVqRK/yourorderlogo.jpg"
+                                                                    alt="your order logo" alt="Pizza Hut Your Order"
                                                                     style="display: block; width: 100%;">
                                                             </td>
 
@@ -92,9 +125,9 @@
                                                                 style="background-color: #ffffff; text-align: center; max-width: 568px; font-size: 13px; padding-top: 16px; padding-bottom: 10px;">
                                                                 <span style="font-weight: bold;">YOUR PIZZA HUT</span>
                                                                 <br>
-                                                                <span>6471 Ball Rd</span>
+                                                                <span>6571 Circle Rd</span>
                                                                 <br>
-                                                                <span>Cypress, CA 90630</span>
+                                                                <span>Orange, CA 90630</span>
                                                                 <br>
                                                                 <span style="color: red;">(714)-821-1122</span>
 
@@ -103,7 +136,8 @@
                                                         </tr>
                                                         <tr>
                                                             <td>
-                                                                <img src="https://i.postimg.cc/Gh4kRmtP/hutrewards.jpg" alt="pizza hut rewards"
+                                                                <img src="https://i.postimg.cc/Gh4kRmtP/hutrewards.jpg"
+                                                                    alt="pizza hut rewards"
                                                                     style="display: block; width: 100%;">
                                                             </td>
                                                         </tr>
@@ -120,7 +154,7 @@
                                                         <tr>
                                                             <td width=568 align="center"
                                                                 style="background-color: #ffffff; text-align: left; max-width: 568px; font-size: 13px; padding: 20px 30px 20px 30px;">
-                                                                <table align="left" cellspacing="0" cellpadding="0"
+                                                                <table class="order" align="left" cellspacing="0" cellpadding="0"
                                                                     border="0" style="width: 100%;">
                                                                     <tr>
                                                                         <td width="5" align="left"
@@ -180,159 +214,211 @@
                                                                         </td>
                                                                     </tr>
                                                                 </table>
+                                                                <!--end of order-->
+
                                                             </td>
                                                         </tr>
-
-
                                                     </table>
-
+                                                      <!--end of order section-->
                                                 </td>
                                                 <td width="36" style="max-width: 36px; vertical-align: bottom;">
-                                                    <img src="https://i.postimg.cc/VNWtgSZw/pizzahutbackground.png" width="36"
-                                                        style="display: block;">
+                                                    <img src="https://i.postimg.cc/VNWtgSZw/pizzahutbackground.png"
+                                                        width="36"
+                                                        style="line-height: 15px; display: block; width: 100%;">
                                                 </td>
-                                            </tr>
+                                                    </tr>
+                                            </table>
+                                        
+                                            </td>
+                                            <!--test-->
 
-                                            <!--start of bottom main content-->
-                                            <tr>
-                                                <td width="640" style="width: 100%; background-color: black;">
-                                                    <br>
-                                                    <br>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td width="36"
-                                                    style="max-width: 36px; vertical-align: bottom; background-color: black;">
-
-
-                                                </td>
-
-
-                                                <td width="568" align="center" style="max-width: 568px;">
-                                                    <img src="https://i.postimg.cc/gJMZ9CPB/hiringtodaylogo.gif">
-
-                                                </td>
-                                                <td width="36"
-                                                    style="max-width: 36px; vertical-align: bottom; background-color: black;">
-
-                                                </td>
-
-                                            </tr>
-                                            <tr>
-                                                <td style="width: 100%; background-color: black;">
-                                                    <br>
-                                                    <br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="36"
-                                                    style="max-width: 36px; vertical-align: bottom; background-color: black;">
-
-
-                                                </td>
-
-
-                                                <td width="568" align="center" style="max-width: 568px;">
-                                                    <img src="https://i.postimg.cc/fbNXY7K5/pizzahutapp.jpg">
-
-                                                </td>
-                                                <td width="36"
-                                                    style="max-width: 36px; vertical-align: bottom; background-color: black;">
-
-                                                </td>
-
-                                            </tr>
-                                            <tr>
-                                                <td style="width: 100%; background-color: black;">
-                                                    <br>
-                                                    <br>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="36"
-                                                    style="max-width: 36px; vertical-align: bottom; background-color: black;">
-
-
-                                                </td>
-
-
-                                                <td width="568" align="center" style="max-width: 568px;">
-                                                    <img src="https://i.postimg.cc/rsKtqfVy/hutfacts.gif">
-
-                                                </td>
-                                                <td width="36"
-                                                    style="max-width: 36px; vertical-align: bottom; background-color: black;">
-
-                                                </td>
-
-                                            </tr>
-                                            <tr>
-                                                <td style="width: 100%; background-color: black;">
-                                                    <br>
-                                                    <br>
-                                                </td>
                                             </tr>
                                         </table>
-                                        <!--start of footer-->
-                                        <table align="center" width="640" border="0" cellspacing="0" cellpadding="0">
+
+                                        </td>
+                                </tr>
+                                <!--end of main content-->
+                            </table>
+                            
+                            
+
+                             <!--test-->
+                            <table class="app-container" align="center" width="640" cellspacing="0"
+                            cellpadding="0" border="0">
+                                <tr>
+                                    <td width="100%" style="background-color: black;">
+                                        <br>
+                                        <br>
+                                    </td>
+                                </tr>
+
+                            </table>
+                            <!--test-->
+                            <table class="app-container" align="center" width="640" cellspacing="0"
+                            cellpadding="0" border="0">
+                                <tr>
+                                    <td colspan="3" width="640" align="center" style="max-width: 568px;">
+                                        <table class="inside-app-container" align="center" width="640" cellspacing="0" cellpadding="0" border="0">
                                             <tr>
-                                                <td width="36"
-                                                    style="max-width: 36px; vertical-align: bottom; background-color: black;">
-                                                </td>
-                                                <td width=568 align="center"
-                                                    style=" font-size: 13px; background-color: black; color: white; text-align: center; max-width: 568px;">
-                                                    <p>
-                                                        Please Note: The Estimated Time listed above is an automatically
-                                                        generated approximation of when your order may be ready. If you
-                                                        require a more exact estimate of when your order will be ready,
-                                                        we recommend that you call your Pizza Hut restaurant directly.
-                                                        <br>
-                                                        <br>
+                                                <td width="36" align="center"
+                                                style="max-width: 36px; vertical-align: bottom; background-color: black;">
+        
+        
+                                            </td>
+        
+        
+                                            <td width="568" align="center" style="max-width: 568px; background-color: black;">
+                                                <img src="https://i.postimg.cc/gJMZ9CPB/hiringtodaylogo.gif" style="width: 100%;">
+        
+                                            </td>
+                                            <td width="36"
+                                                style="max-width: 36px; vertical-align: bottom; background-color: black">
+        
+                                            </td>
 
-                                                        Hut Rewards is open to US residents 16+ who have registered for
-                                                        the program. Point earning (including delivery charges; taxes,
-                                                        tips, gift card purchases and donations are excluded) and
-                                                        redemption valid only for orders at participating stores. Sign
-                                                        up and point redemption are available online only. Point
-                                                        minimums apply for redemption. Customer is responsible for all
-                                                        taxes, delivery charges and delivery minimums that may apply
-                                                        upon redemption. Points have no cash value and may not be
-                                                        redeemed for cash. Pizza Hut reserves the right to cancel or
-                                                        change the program at any time. For full Hut Rewards Terms &
-                                                        Conditions, with details, restrictions, and limitations click
-                                                        <span style="color: red;">here.</span>
-                                                        <br>
-                                                        <br>
+                                            </tr>
+                                            
+                                            
 
-                                                        The Pizza Hut name, logos and related marks are trademarks of
-                                                        Pizza Hut, LLC. Third party trademarks are owned by the
-                                                        respective parties.
-                                                        <br>
-                                                        <br>
+                                        </table>
 
-                                                        ©2021 Pizza Hut, LLC,<span style="color:#1155CC">7100 Corporate Drive, Plano, TX, 75024,
-                                                        USA</span>
-                                                        <br>
-                                                        <br>
-                                                    </p>
-                                                </td>
-                                                <td width="36"
-                                                    style="max-width: 36px; vertical-align: bottom; background-color: black;">
-                                                </td>
+                                    </td>
+                                    
+
+                                    
+                                </tr>
+                            </table>
+                            <table class="app-container" align="center" width="640" cellspacing="0"
+                            cellpadding="0" border="0">
+                                <tr>
+                                    <td width="100%" style="background-color: black;">
+                                        <br>
+                                        <br>
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                            <table class="app-container" align="center" width="640" cellspacing="0"
+                            cellpadding="0" border="0">
+                                <tr>
+                                    <td colspan="3" width="640" align="center" style="max-width: 568px;">
+                                        <table class="inside-app-container" align="center" width="640" cellspacing="0" cellpadding="0" border="0">
+                                            <tr>
+                                                <td width="36" align="center"
+                                                style="max-width: 36px; vertical-align: bottom; background-color: black;">
+        
+        
+                                            </td>
+        
+        
+                                            <td width="568" align="center" style="max-width: 568px; background-color: black;">
+                                                <img src="https://i.postimg.cc/fbNXY7K5/pizzahutapp.jpg" style="width: 100%;">
+        
+                                            </td>
+                                            <td width="36"
+                                                style="max-width: 36px; vertical-align: bottom; background-color: black">
+        
+                                            </td>
+
                                             </tr>
                                         </table>
                                     </td>
                                 </tr>
-                                
-                                <!--end of main content-->
                             </table>
+                            <table class="app-container" align="center" width="640" cellspacing="0"
+                            cellpadding="0" border="0">
+                                <tr>
+                                    <td width="100%" style="background-color: black;">
+                                        <br>
+                                        <br>
+                                    </td>
+                                </tr>
+
+                            </table>
+                            <table class="app-container" align="center" width="640" cellspacing="0"
+                            cellpadding="0" border="0">
+                                <tr>
+                                    <td colspan="3" width="640" align="center" style="max-width: 568px;">
+                                        <table class="inside-app-container" align="center" width="640" cellspacing="0" cellpadding="0" border="0">
+                                            <tr>
+                                                <td width="36" align="center"
+                                                style="max-width: 36px; vertical-align: bottom; background-color: black;">
+        
+        
+                                            </td>
+        
+        
+                                            <td width="568" align="center" style="max-width: 568px; background-color: black;">
+                                                <img src="https://i.postimg.cc/rsKtqfVy/hutfacts.gif" style="width: 100%;">
+        
+                                            </td>
+                                            <td width="36"
+                                                style="max-width: 36px; vertical-align: bottom; background-color: black">
+        
+                                            </td>
+
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--end of main-content-container-->
+
+                            <!--start of footer-->
+                            <table align="center" width="640" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="36"
+                                        style="max-width: 36px; vertical-align: bottom; background-color: black;">
+                                    </td>
+                                    <td width=568 align="center"
+                                        style=" font-size: 13px; background-color: black; color: white; text-align: center; max-width: 568px;">
+                                        <p>
+                                            Please Note: The Estimated Time listed above is an automatically
+                                            generated approximation of when your order may be ready. If you
+                                            require a more exact estimate of when your order will be ready,
+                                            we recommend that you call your Pizza Hut restaurant directly.
+                                            <br>
+                                            <br>
+
+                                            Hut Rewards is open to US residents 16+ who have registered for
+                                            the program. Point earning (including delivery charges; taxes,
+                                            tips, gift card purchases and donations are excluded) and
+                                            redemption valid only for orders at participating stores. Sign
+                                            up and point redemption are available online only. Point
+                                            minimums apply for redemption. Customer is responsible for all
+                                            taxes, delivery charges and delivery minimums that may apply
+                                            upon redemption. Points have no cash value and may not be
+                                            redeemed for cash. Pizza Hut reserves the right to cancel or
+                                            change the program at any time. For full Hut Rewards Terms &
+                                            Conditions, with details, restrictions, and limitations click
+                                            <span style="color: red;">here.</span>
+                                            <br>
+                                            <br>
+
+                                            The Pizza Hut name, logos and related marks are trademarks of
+                                            Pizza Hut, LLC. Third party trademarks are owned by the
+                                            respective parties.
+                                            <br>
+                                            <br>
+
+                                            ©2021 Pizza Hut, LLC, <span style="color:#1155CC">7100 Corporate Drive,
+                                                Plano, TX, 75024,
+                                                USA</span>
+                                            <br>
+                                            <br>
+                                        </p>
+                                    </td>
+                                    <td width="36"
+                                        style="max-width: 36px; vertical-align: bottom; background-color: black;">
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--end of footer table-->
                         </td>
                     </tr>
-
-                    <!--end of main content-->
-                    <!-- end of container-->
                 </table>
+                <!--end of container-->
             </td>
         </tr>
         <!--end of html email-->
